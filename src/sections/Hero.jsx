@@ -1,6 +1,6 @@
 import React from 'react';
 import { LuArrowDown, LuTerminal, LuSparkles } from 'react-icons/lu';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { personalInfo } from '../data/portfolioData';
 
 export default function Hero() {
@@ -27,10 +27,10 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-          
+
           {/* Left Column: Headlines & Call to Actions */}
           <div className="lg:col-span-7 text-center lg:text-left space-y-6">
-            
+
             {/* Status / Availability Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono font-medium tracking-wide bg-purple-950/50 text-purple-300 border border-purple-500/30 shadow-[0_0_15px_rgba(139,92,246,0.15)]">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
@@ -78,6 +78,7 @@ export default function Hero() {
                 <span>Get in Touch</span>
               </button>
 
+
               <a
                 href={`https://github.com/${personalInfo.githubUsername}`}
                 target="_blank"
@@ -87,6 +88,17 @@ export default function Hero() {
               >
                 <FaGithub className="w-5 h-5 group-hover:scale-110 transition-transform" />
               </a>
+
+              <a
+                href="https://www.linkedin.com/in/raihanur-rahman62/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center p-3.5 rounded-xl text-slate-300 hover:text-white bg-slate-900/90 hover:bg-slate-800 border border-slate-700/80 hover:border-purple-500/50 transition-all duration-300 group"
+                aria-label="Visit Raihanur Rahman's LinkedIn Profile"
+              >
+                <FaLinkedin className="w-5 h-5 group-hover:scale-110 transition-transform" />
+              </a>
+
             </div>
 
             {/* Quick Metrics / Focus Badges */}

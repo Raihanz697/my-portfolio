@@ -10,15 +10,15 @@ export const personalInfo = {
   location: "Sylhet, Bangladesh",
   githubUsername: "Raihanz697",
   avatarUrl: "https://avatars.githubusercontent.com/u/252692712?v=4",
-  
+
   // EDITABLE: Add your verified email here to enable email contact features
   // When empty or null, the UI gracefully prompts visitors to connect via GitHub
-  email: "", 
-  
+  email: "raihanmc420@gmail.com",
+
   tagline: "Building modern web experiences while learning, experimenting, and growing one project at a time.",
-  
+
   aboutSummary: "I am a Computer Science and Engineering student at Leading University with a strong passion for modern web technologies. My journey involves continuous learning, breaking down complex interfaces into modular React components, and exploring full-stack web development.",
-  
+
   aboutPoints: [
     {
       title: "Consistent Learning Journey",
@@ -52,8 +52,14 @@ export const socialLinks = [
     url: "https://github.com/Raihanz697",
     icon: "FaGithub",
     ariaLabel: "Visit Raihanur Rahman's GitHub Profile"
+  },
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/raihanur-rahman62/",
+    icon: "FaLinkedin",
+    ariaLabel: "Visit Raihanur Rahman's LinkedIn Profile"
   }
-  // Add other verified profiles here (e.g., LinkedIn) when available
+
 ];
 
 export const skillsCategories = ["All", "Frontend", "Backend", "Database", "Tools"];
@@ -63,7 +69,7 @@ export const skillsData = [
   {
     name: "React",
     category: "Frontend",
-    level: "Practicing",
+    level: "Proficient",
     icon: "FaReact",
     accentColor: "#61DAFB",
     description: "Component lifecycle, state management, hooks, and responsive interfaces"
@@ -71,10 +77,18 @@ export const skillsData = [
   {
     name: "JavaScript (ES6+)",
     category: "Frontend",
-    level: "Comfortable",
+    level: "Proficient",
     icon: "SiJavascript",
     accentColor: "#F7DF1E",
     description: "Asynchronous programming, DOM manipulation, array methods, and modern syntax"
+  },
+  {
+    name: "TypeScript",
+    category: "Frontend",
+    level: "Comfortable",
+    icon: "SiTypescript",
+    accentColor: "#3178C6",
+    description: "Learning static typing, interfaces, type aliases, and safer JavaScript development"
   },
   {
     name: "Tailwind CSS",
@@ -85,17 +99,17 @@ export const skillsData = [
     description: "Utility-first responsive layouts, custom themes, and modern Tailwind v4"
   },
   {
-    name: "HTML5",
+    name: "HTML5 & Semantic Markup",
     category: "Frontend",
-    level: "Comfortable",
+    level: "Advanced",
     icon: "SiHtml5",
     accentColor: "#E34F26",
     description: "Semantic page structures, accessibility essentials, and SEO best practices"
   },
   {
-    name: "CSS3",
+    name: "CSS3 & Modern Layouts",
     category: "Frontend",
-    level: "Comfortable",
+    level: "Advanced",
     icon: "FaCss3Alt",
     accentColor: "#1572B6",
     description: "Flexbox, Grid, custom animations, media queries, and dark mode styling"
@@ -103,7 +117,7 @@ export const skillsData = [
   {
     name: "Next.js",
     category: "Frontend",
-    level: "Learning",
+    level: "Familiar",
     icon: "SiNextdotjs",
     accentColor: "#E2E8F0",
     description: "App Router conventions, server/client components, and static site generation"
@@ -113,7 +127,7 @@ export const skillsData = [
   {
     name: "Node.js",
     category: "Backend",
-    level: "Learning",
+    level: "Familiar",
     icon: "FaNodeJs",
     accentColor: "#22C55E",
     description: "Server runtime environment, NPM package ecosystem, and backend scripting"
@@ -121,7 +135,7 @@ export const skillsData = [
   {
     name: "Express.js",
     category: "Backend",
-    level: "Learning",
+    level: "Familiar",
     icon: "SiExpress",
     accentColor: "#CBD5E1",
     description: "RESTful API routes, middleware handling, and JSON responses"
@@ -131,7 +145,7 @@ export const skillsData = [
   {
     name: "MongoDB",
     category: "Database",
-    level: "Learning",
+    level: "Familiar",
     icon: "SiMongodb",
     accentColor: "#10B981",
     description: "Document-oriented NoSQL database fundamentals, collections, and basic queries"
@@ -141,7 +155,7 @@ export const skillsData = [
   {
     name: "Git",
     category: "Tools",
-    level: "Familiar",
+    level: "Comfortable",
     icon: "FaGitAlt",
     accentColor: "#F05032",
     description: "Version control, branching, committing, and conflict resolution"
@@ -157,7 +171,7 @@ export const skillsData = [
   {
     name: "Vite",
     category: "Tools",
-    level: "Comfortable",
+    level: "Proficient",
     icon: "SiVite",
     accentColor: "#A855F7",
     description: "Next-generation frontend tooling, lightning fast HMR, and build optimization"
@@ -174,7 +188,7 @@ export const projectsData = [
     githubUrl: "https://github.com/Raihanz697/Fit-Log",
     liveUrl: null, // Set verified live deployment URL here when published
     featured: true,
-    status: "Active Learning"
+    status: "Work In Progress"
   },
   {
     id: "bpl-dream-11",
@@ -218,7 +232,7 @@ export const projectsData = [
     githubUrl: "https://github.com/Raihanz697/Bazar-dor",
     liveUrl: null,
     featured: false,
-    status: "Completed Project"
+    status: "Work In Progress"
   },
   {
     id: "bangla-news-24",

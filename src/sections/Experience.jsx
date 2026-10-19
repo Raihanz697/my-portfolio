@@ -5,8 +5,10 @@ import { experienceData } from '../data/portfolioData';
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-20 relative scroll-mt-24">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section
+      id="experience"
+      className="relative flex min-h-[100svh] flex-col justify-center py-24 scroll-mt-24"
+    >      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           badge="Professional Path"
           title="Experience &"
